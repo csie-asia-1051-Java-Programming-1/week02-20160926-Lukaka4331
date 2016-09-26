@@ -19,12 +19,14 @@ public class ex02_105021044 {
 		int y= 0;
 		int a= scn.nextInt();
 		int b= scn.nextInt();
+int c=(a-x)*(a-x) +(b-y)*(b-y);
 int d= (int)Math.sqrt(c); 
 		if(d<=100){
 		System.out.println("在裡面");
 		
 		
-			}else{		System.out.println("在外面");
+			}else{	if(d>100){
+				System.out.println("在外面");
 
 				
 			}
@@ -33,7 +35,7 @@ int d= (int)Math.sqrt(c);
 		
 		
 		
-		
+			}
 		
 		
 		
